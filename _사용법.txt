@@ -47,7 +47,7 @@ toc_label: 목차 //목차 이름 설정
 toc_icon: "" //목차에 아이콘 이미지 넣기
 
 
-###블로그 글 양옆 크기 늘리기
-C:\Projects\MyBlog\rlagywnd.github.io\_sass\minimal-mistakes\_page.scss
+###블로그글 양옆 크기 늘리기
+_sass\minimal-mistakes\_page.scss
 에 있는 파일에서 .page에서 주석 처리돼있는 width: calc(100%);이거 두개
 주석 해제후 원래 있던 width태그는 주석해주기
