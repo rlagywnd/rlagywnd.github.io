@@ -25,7 +25,7 @@ url                      : "https://rlagywnd.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/kurumi.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -113,20 +113,20 @@ analytics:
 # Site Author
 author:
   name             : "김오둥"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/kurumi.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "South Korea"
-  email            : "unitydosa@gmail.com"
+  email            : "joong0532@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:unitydosa@gmail.com" 
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:unitydosa@gmail.com" 
+    - label: "Twitter"
+      icon: "fa-brands fa-square-x-twitter"
+      url: "https://x.com/rladhend0302"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube-square"
-      url: "https://www.youtube.com/@김오둥"
+      url: "https://www.youtube.com/@rladhend123"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rlagywnd"
@@ -319,5 +319,12 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: 목차
+      toc_icon: ""
+      
+
 
 date_format: "%Y-%m-%d"
